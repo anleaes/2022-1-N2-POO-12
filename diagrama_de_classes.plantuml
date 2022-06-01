@@ -1,0 +1,8 @@
+@startuml
+class Carro
+ 
+Driver o- Carro  
+Carro o- Wheel 
+Carro <-- Person
+
+@enduml
